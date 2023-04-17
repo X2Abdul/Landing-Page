@@ -144,11 +144,14 @@ body{
     color: white;
 }
 
-.signup text {    
-    font-size: small;
+.signup .text {    
+    margin: 0;
+    padding: 0;
+    line-height: 10px;
     color: white;
+    font-size: small;
+    
 }
-
 
 
 .signup button{
@@ -157,6 +160,7 @@ body{
     background-color: #3882f6;
     font-size: medium;
     color: white;
+    min-width: 90px;
 }
 
 .signup button:hover{
