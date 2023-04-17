@@ -1,0 +1,166 @@
+body{
+    margin: 0px 300px;
+    font-family: sans-serif;
+}
+
+.header-bleed{
+    box-shadow:  0 0 0 100vmax #1f2937 ;
+    clip-path: inset(0 -100vmax);
+}
+
+.header{
+    background-color: #1f2937;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+.footer-bleed{
+    box-shadow:  0 0 0 100vmax #1f2937 ;
+    clip-path: inset(0 -100vmax);
+}
+
+.footer{
+    background-color: #1f2937;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+}
+
+.info{
+    display:flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.info-text button{
+    border-radius: 15px;
+    background-color: #3882f6;  
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+}
+
+.info-text button:hover{
+    color: #3882f6;
+    background-color: white;
+    cursor: pointer;
+}
+
+.info-text h1{
+    font-size: 48px;
+    font-weight:bolder;
+    color: #f9faf8;
+}
+
+.info-text p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.links a{
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.nav-bar{
+    display:flex;
+    justify-content: space-between;
+}
+
+.links{
+    display:flex;
+    gap: 30px;
+}
+
+.random-info{
+    padding: 50px 0px;
+}
+
+.random-info .title{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+}
+
+.inventory{
+    display: flex;
+    justify-content: center;
+}
+
+.inventory img{
+    outline: 3px solid blue;
+    border-radius: 10px;
+    position: relative;
+    left: 30px;
+}
+.inventory p{
+    padding: 0px 5px;
+    text-align: center;
+}
+
+.quote-section-bleed{
+    box-shadow:  0 0 0 100vmax #e5e7eb ;
+    clip-path: inset(0 -100vmax);
+}
+
+.quote-section{
+    padding:30px 20px;
+    background-color: #e5e7eb;
+}
+
+ .quote{
+    font-size: 36px;
+    text-align: center;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.author{
+    font-size: 20px;
+    text-align: right;
+}
+
+.signup{
+    margin: 50px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3882fa;
+    border-radius: 5px;
+    padding: 10px 60px;
+    gap: 50px;
+    color: white;
+}
+
+.signup text {    
+    font-size: small;
+    color: white;
+}
+
+
+
+.signup button{
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: #3882f6;
+    font-size: medium;
+    color: white;
+}
+
+.signup button:hover{
+    background-color: white;
+    color: #3882f6;
+    cursor: pointer;
+}
